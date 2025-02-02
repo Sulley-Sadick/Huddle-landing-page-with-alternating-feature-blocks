@@ -313,6 +313,30 @@ footer .logo{
 .attribution a { color: var(--white-color); }
 
 
+@media screen and (width < 25rem) {
+    body{
+        background-color: var(--very-dark-cyan);
+    }
+
+    .header{
+        padding: 2rem .5rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .header-logo{
+        max-width: 7rem;
+    }
+
+    .header .button{
+        font-weight: var(--font-weight-400);
+        font-size: var(--font-size-body);
+        padding: .5rem 1rem;
+    }
+
+
+}
+
 @media screen and (min-width: 62.5rem) {
     
     .cards-container{
